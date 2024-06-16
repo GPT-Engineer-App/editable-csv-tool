@@ -9,6 +9,9 @@ const Index = () => {
         <Button as={Link} to="/snake-game">
           Play Snake Game
         </Button>
+        <Button as={Link} to="/news-feed">
+          Go to News Feed
+        </Button>
       </VStack>
     </Container>
   );
