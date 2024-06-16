@@ -15,6 +15,9 @@ const Index = () => {
         <Button as={Link} to="/messaging">
           Messaging
         </Button>
+        <Button as={Link} to="/notifications">
+          Notifications
+        </Button>
       </VStack>
     </Container>
   );

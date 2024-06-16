@@ -4,6 +4,7 @@ import SnakeGame from "./pages/SnakeGame.jsx";
 import NewsFeed from "./pages/NewsFeed.jsx";
 import UserProfile from "./pages/UserProfile.jsx";
 import Messaging from "./pages/Messaging.jsx";
+import Notifications from "./pages/Notifications.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/news-feed" element={<NewsFeed />} />
       <Route path="/user/:userId" element={<UserProfile />} />
       <Route path="/messaging" element={<Messaging />} />
+      <Route path="/notifications" element={<Notifications />} />
       </Routes>
     </Router>
   );
