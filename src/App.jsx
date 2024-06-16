@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import SnakeGame from "./pages/SnakeGame.jsx";
 import NewsFeed from "./pages/NewsFeed.jsx";
+import UserProfile from "./pages/UserProfile.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
       <Route path="/snake-game" element={<SnakeGame />} />
       <Route path="/news-feed" element={<NewsFeed />} />
+      <Route path="/user/:userId" element={<UserProfile />} />
       </Routes>
     </Router>
   );
