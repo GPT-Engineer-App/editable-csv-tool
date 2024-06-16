@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import SnakeGame from "./pages/SnakeGame.jsx";
 import NewsFeed from "./pages/NewsFeed.jsx";
 import UserProfile from "./pages/UserProfile.jsx";
+import Messaging from "./pages/Messaging.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/snake-game" element={<SnakeGame />} />
       <Route path="/news-feed" element={<NewsFeed />} />
       <Route path="/user/:userId" element={<UserProfile />} />
+      <Route path="/messaging" element={<Messaging />} />
       </Routes>
     </Router>
   );
